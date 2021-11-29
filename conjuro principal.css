@@ -1,0 +1,332 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+		width: 1280px;
+	height: 720px;
+}
+
+
+h3{font-style: normal;
+	font-weight: bold;
+	font-size: 38px;
+	line-height: 45px;
+	letter-spacing: -0.02em;
+	color: #FFFFFF;}
+
+
+
+
+h5{font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+	color: #FFFFFF;}
+
+.contenedor{
+		background: linear-gradient(5deg, #1E130C 0%, #9A8478 100%);
+	width: 1280px;
+	height: 720px;
+align-items: center;}
+
+.imagen-fondo{position: absolute;
+	width: 1280px;
+	height: 720px;
+	left: 0px;
+	top: 6px;}
+
+.contenedor-titulo{position: absolute;
+	width: 696px;
+	height: 132px;
+	left: 14px;
+	top: 31px;}
+
+.boton-inicio{
+	position: absolute;
+	width: 41px;
+	height: 44px;
+	left: 1097.45px;
+	top: 17.17px;}
+
+
+	.texto-inicio{position: absolute;
+		width: 67px;
+		height: 33px;
+		left: 1149.45px;
+		top: 23.17px;
+		
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		line-height: 33px;
+		
+		display: flex;
+		align-items: center;
+		letter-spacing: -0.02em;
+		
+		color: #FFFFFF;}
+		
+
+
+.enlace1{position: absolute;
+	width: 96px;
+	height: 33px;
+	left: 59px;
+	top: 270.17px;
+	
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	line-height: 33px;
+	/* identical to box height */
+	
+	letter-spacing: -0.02em;
+	
+	color: #FFFFFF;}
+
+	.enlace2{position: absolute;
+		width: 300px;
+		height: 33px;
+		left: 59px;
+		top: 318px;
+		
+		
+		font-style: normal;
+		font-weight: bold;
+		font-size: 28px;
+		line-height: 33px;
+		/* identical to box height */
+		
+		letter-spacing: -0.02em;
+		
+		color: #FFFFFF;}
+	
+		.enlace3{position: absolute;
+			width: 101px;
+			height: 33px;
+			left: 59px;
+			top: 366px;			
+			
+			font-style: normal;
+			font-weight: bold;
+			font-size: 28px;
+			line-height: 33px;
+			
+			letter-spacing: -0.02em;
+			
+			color: #FFFFFF;}
+
+
+
+.fotos{
+	transition: all 0.5s ease;
+	position: absolute;
+}
+
+.fotos:hover{
+	transform: scale(0.9);
+	border-radius: 30px;
+}
+
+
+.fotoN2{position: absolute;
+	width: 139px;
+	height: 194px;
+	left: 43.45px;
+	top: 477.17px;
+	display: block;
+	    }
+
+.fotoN3{position: absolute;
+	width: 151.73px;
+	height: 194px;
+	left: 210.45px;
+	top: 477.17px;
+    display: block;
+}
+
+.fotoN4{position: absolute;
+	width: 136.62px;
+	height: 194px;
+	left: 390.45px;
+	top: 477.17px;
+    display: block;
+}
+
+.boton-redes{position: absolute;
+	width: 41px;
+	height: 38px;
+	left: 827.45px;
+	top: 677.17px;
+	}
+
+	.boton-comentarios{position: absolute;
+		width: 53px;
+		height: 55px;
+		left: 956.45px;
+		top: 663.17px;
+		}
+	
+		.boton-ayuda{
+			position: absolute;
+			width: 49px;
+			height: 52px;
+			left: 1117.45px;
+			top: 663.17px;}
+
+	.compartir{position: absolute;
+		width: 73px;
+		height: 19px;
+		left: 875.45px;
+		top: 683.17px;}
+
+	.comentarios{position: absolute;
+		width: 93px;
+		height: 19px;
+		left: 1010.45px;
+		top: 684.17px;}
+	
+		.ayuda{position: absolute;
+			width: 45px;
+			height: 19px;
+			left: 1170.45px;
+			top: 680.17px;}
+		
+
+/*css Pagina Historia */
+
+.titulo-historia{position: absolute;
+				width: 146px;
+				height: 51px;
+				left: 53px;
+				top: 205px;}
+
+.texto-historia{
+	position: absolute;
+width: 562px;
+height: 394px;
+left: 50px;
+top: 279px;
+
+font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 15px;
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+text-align: justify;
+}
+
+/*css Acerca del Conjuro */
+
+.titulo-acerca{
+	position: absolute;
+	width: 450px;
+	height: 45px;
+	left: 53px;
+	top: 221px;
+	}
+
+.subtitulo	{
+	position: absolute;
+	left: 65px;
+	top: 295px;
+
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: -0.02em;
+
+color: #E5BDBD;
+text-align:  right;}
+
+
+.texto{
+position: absolute;
+left: 151px;
+top: 295px;
+
+
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+}
+
+/*css pagina galerias*/
+
+.titulo-galeria{
+	position: absolute;
+width: 136px;
+height: 45px;
+left: 53px;
+top: 227px;
+	}
+
+	.fotos-galeria{
+		overflow: hidden;
+		position: absolute;
+		left: 70px;
+		top: 339px;
+		width: 400px;
+	}
+
+	.fotos-galeria ul{
+		display: flex;
+		padding: 0%;
+		width: 400%;
+	}
+	.fotos-galeria li{
+		list-style: none;
+		width: 50%;
+	}
+	.fotos-galeria img{
+		width: 60%;
+		height: 50%;
+	}
+	
+	/*css pagina conjuro1*/
+
+	.contenedor-sinopsis{background: linear-gradient(-100deg, #23160D 30.73%, #9A8478 100%);
+		width: 1280px;
+		height: 720px;
+	align-items: center;}
+
+	.titulo-sipnosis{position: absolute;
+		width: 142px;
+		height: 45px;
+		left: 548.33px;
+		top: 139.92px;}
+
+		.texto-sipnosis{position: absolute;
+			width: 590.66px;
+			height: 86.18px;
+			left: 548.33px;
+			top: 206.61px;}
+
+
+.imageconjuro1{position: absolute;
+	width: 447px;
+	height: 270px;
+	left: 57.33px;
+	top: 131.39px;
+	border-radius: 37px;
+}
+
+.playconjuro1{position: absolute;
+	width: 148px;
+	height: 157px;
+	left: 179.32px;
+	top: 196.39px;
+	}
